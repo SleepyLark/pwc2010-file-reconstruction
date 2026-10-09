@@ -1,0 +1,27 @@
+file,what_is_wrong,level_per_tool,expected_code,emulated_stored_0x88,emulated_party_0xDC,explanation,,
+party/slot1_ivysaur_lv10.pk5,Ivysaur Lv10 (below its minimum legal level 16),10,31,31,31,below minimum level (rule.prd record+2),,
+party/slot2_mew_no_flag.pk5,Mew Lv50 without the fateful/event flag,50,33,33,33,limited-distribution species without event flag,,
+party/slot3_pikachu_hyperbeam.pk5,Pikachu knows Hyper Beam in slot 2 (not learnable),50,151,151,151,"move not learnable, slot 2",,
+party/slot4_pikachu_dupe_move.pk5,Pikachu with Thunderbolt in slots 1 and 2,50,131,131,131,duplicate move (slot 2 repeats slot 1),,
+party/slot5_pikachu_bad_ball.pk5,Pikachu in invalid ball ID 26,50,50,50,50,ball ID outside 1-25,,
+party/slot6_charizard_sky_drop.pk5,Charizard knows Sky Drop (banned),50,170,170,170,native Sky Drop check (mode 0),,
+extended/control_legal_pikachu.pk5,CONTROL: legal Pikachu Lv50 (must return 0),50,0,0,0,no error,,
+extended/e01_first_move_empty.pk5,Move in slot 2 only; slot 1 empty,50,140,140,140,first move slot empty,,
+extended/e02_gap_in_moves.pk5,"Slot 2 empty, slot 3 filled",50,141,141,141,empty slot before a filled one,,
+extended/e03_dupe_move_1_3.pk5,Quick Attack in slots 1 and 3,50,132,132,132,duplicate move (slot 3 repeats an earlier slot),,
+extended/e04_pikachu_sky_drop.pk5,Pikachu with Sky Drop (it can never learn it),50,150,150,150,unlearnable move is caught by rule.prd BEFORE the native Sky Drop check,,
+extended/e05_move_id_out_of_range.pk5,Move ID 600 (> 560),50,120,120,120,move ID out of range,,
+extended/e06_ev_total_over_510.pk5,EVs 255 in every stat (total 1530),50,90,90,90,total EV > 510,,
+extended/e07_nature_out_of_range.pk5,Nature value 40,50,200,200,200,nature > 25,,not triggered?
+extended/e08_invalid_form.pk5,Pikachu form 5,50,32,32,32,form above the species' maximum form,,
+extended/e09_unobtainable_item.pk5,Holding item ID 700,50,61,61,61,item ID > 625,,not triggered?
+extended/e10_species_zero.pk5,Species 0,50,20,20,20,species out of range,,
+extended/e11a_bad_checksum.pk5,Stored checksum does not match the data,50,10,10,skipped,'Bad Egg' via checksum mismatch,,not triggered?
+extended/e11b_bad_egg_flag.pk5,Bad Egg flag set (sanity word bit 2),50,10,10,skipped,'Bad Egg' via flag,,
+extended/e12_mewtwo_lv50.pk5,Mewtwo Lv50 (below its table minimum),50,31,31,31,below minimum level,,
+extended/e13_older_only_move.pk5,"Bulbasaur with Headbutt (#29): older-game-only move, native Pokemon",50,160,160,160,table byte has bit 0x80,,not triggered?
+extended/e14_egg_move_not_hatched.pk5,"Charmander with Bite (egg-only move), not hatched",50,180,180,180,"egg-only move, egg location = 0",,not triggered?
+extended/e15_xd_move_plus_egg_move.pk5,"Pidgeotto: XD-only Refresh + egg-only Feint Attack, transferred (met location 30001)",50,190,190,190,XD-only move combined with egg-only move,,
+extended/e16_dist_move_plus_egg_move.pk5,"Charmander: distribution-only Quick Attack + egg-only Bite, transferred",50,191,191,191,distribution-only move combined with egg-only move,,
+extended/e17_unown_hatched_wrong_place.pk5,Unown hatched (egg location set) with met location 10,50,211,211,211,limited species hatched without Poke Transfer,,not triggered?
+extended/e18_articuno_wrong_place.pk5,Articuno caught at location 10 (not in its allowed list),70,212,212,212,met location not in the species' allowed list,,not triggered?

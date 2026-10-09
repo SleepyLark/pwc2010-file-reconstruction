@@ -1,0 +1,66 @@
+0	There are no Pokémon in@the party or Battle Box.
+1	OK
+2	There is a Bad Egg in the@party or the Battle Box.
+3	Invalid Pokémon: Pokémon@No. value is out of range.
+4	This Pokémon hasn't@been distributed yet.
+5	There is no shiny version@of this Pokémon.
+6	Ineligible Pokémon.
+7	Level outside of 1 to 100.
+8	This Pokémon can't be@obtained at this level.
+9	This Pokémon's form No.@is invalid.
+10	Limited distribution@Pokémon, but flag isn't set.
+11	Illegal Pokémon is in a@ball it shouldn't be in.
+12	This Pokémon must be in an@ordinary Poké Ball.
+13	Pokémon hatched from an@Egg must be in a Poké Ball.
+14	Pokémon has illegal Ability
+15	This Pokémon can't be@found with this Ability yet.
+16	This Pokémon's has an@unobtainable held item.
+17	Illegal Ability/gender@pairing for this Pokémon.
+18	Invalid country code.
+19	Illegal Pokémon: Value for@EV parameter exceeds 255
+20	Illegal Pokémon: Total EV@value exceeds 510.
+21	Illegal Pokémon: Power's@random value out of range
+22	Illegal Pokémon: Move No.@value exceeds range.
+23	Illegal Pokémon: It has two@of the same move.
+24	Illegal Pokémon: First move@slot is empty.
+25	Illegal Pokémon: Second or@third move slot is empty.
+26	Illegal Pokémon: Knows a@move that it can't learn.
+27	Illegal: BW Pokémon has@moves only in old version.
+28	This Pokémon knows Sky@Drop. Change this move.
+29	Illegal Pokémon: Knows Egg@Moves, but not from Egg.
+30	Illegal: Combination of@moves unlearnable (XD).
+31	Illegal: Combination of@moves unlearnable (Dist.).
+32	Illegal Pokémon: Nature@value exceeds range.
+33	Illegal Pokémon: Gender@value exceeds range.
+34	Illegal Pokémon: Invalid@birthplace or place caught.
+35	Illegal Pokémon: Hatched or@caught in Mystery Zone.
+36	Illegal Pokémon: Invalid@Simple Chat in held mail.
+37	Ltd. Pokémon in old game.@Poké Transit not used. NG.
+38	This Pokémon can't be used@so please change Pokémon.
+39	Holding an unusable item,@please change items.
+40	Lv violates tournament@rules. Change Pokémon.
+41	Can't have two of the same@Pokémon. Change Pokémon.
+42	Another Pokémon has the@same item. Change items.
+43	Total Lv exceeds regulation@Please change Pokémon.
+44	Pokémon Black or White 2 is@not the inserted cartridge.
+45	No problems were found in@any of the checks.
+46	Save Pokémon data to this@SD card?
+47	Pokémon data saved to@SD card.
+48	Yes
+49	No
+50	Battle Box check result
+51	Party Pokémon check result
+52	Duplicate Pokémon
+53	Duplicate Item
+54	Levels Total
+55	Next
+56	A Button
+57	B Button
+58	Battle Box check result2 +Control PadRight
+59	Battle Box check result1 +Control PadLeft
+60	Party Pokémon check result2 +Control PadRight
+61	Party Pokémon check result1 +Control PadLeft
+62	Invalid number of@Pokémon.
+63	Check number of Pokémon.@Too few for the battle.
+64	The SD card could not be saved.
+65	

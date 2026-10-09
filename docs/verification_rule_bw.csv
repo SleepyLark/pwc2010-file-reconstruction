@@ -1,0 +1,41 @@
+expected_code,test,checker_returned,result,note
+10,stored checksum does not match the data,10,PASS,
+10,Bad Egg flag (sanity word bit 2),10,PASS,
+20,species 0,20,PASS,
+22,shiny Victini (shiny-locked),22,PASS,
+23,Arceus checked in mode 1 (BW2 tool never uses mode 1),23,PASS,semantics only; unreachable in mode 0
+31,Ivysaur Lv10,31,PASS,
+32,Pikachu form 5,32,PASS,
+33,Mew without event flag,33,PASS,
+50,ball ID 26,50,PASS,
+51,flag-0x10 species #1 in a Great Ball,51,PASS,
+52,egg location set + Great Ball (hatched-from-egg path),52,PASS,exploratory
+60,ability ID 0,60,PASS,
+61,held item 700 (>625),61,PASS,
+61,held item 5 (header-bitmap bit CLEAR),61,PASS,whitelist test
+61,held item 16 (header-bitmap bit CLEAR),61,PASS,whitelist test
+0,held item 1 (header-bitmap bit SET),0,PASS,whitelist test
+0,held item 2 (header-bitmap bit SET),0,PASS,whitelist test
+62,Pikachu with Hidden Ability,62,PASS,flag 0x400 on 645 species
+90,EVs 255 x6,90,PASS,
+120,move ID 600,120,PASS,
+131,move slots 1+2 identical,131,PASS,
+132,move slots 1+3 identical,132,PASS,
+133,move slots 1+4 identical,133,PASS,
+140,slot 1 empty,140,PASS,
+141,"gap: slot 2 empty, slot 3 filled",141,PASS,
+150,Hyper Beam in slot 1,150,PASS,
+151,Hyper Beam in slot 2,151,PASS,
+152,Hyper Beam in slot 3,152,PASS,
+153,Hyper Beam in slot 4,153,PASS,
+160,species #1 knows older-game-only move #29 (byte bit 0x80),160,PASS,
+180,"species #4 knows egg-only move #44, egg location = 0",180,PASS,
+190,"Pidgeotto: XD-only move 287 + egg-only move 185, met location 30001 (Poke Transfer)",190,PASS,
+191,"Charmander: distribution-only move 98 + egg-only move 44, met location 30001",191,PASS,
+170,"species #6 knows Sky Drop (native check, mode 0)",170,PASS,
+30,party-form record with level 0,30,PASS,checker 0x0200B430 called directly
+30,party-form record with level 101,30,PASS,checker 0x0200B430 called directly
+200,nature 40,200,PASS,
+210,met location 1 (invalid),210,PASS,
+212,species #144 caught at location not in its allowed list,212,PASS,
+211,"species #201 (flag 0x20) with egg location set, met location 10",211,PASS,
