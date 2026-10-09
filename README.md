@@ -68,23 +68,8 @@ Copy `regulation.cfg`, `regulation.bin` and `rule.prd` to the SD card root. Full
 [Tools and Reproducing](docs/10-Tools-and-Reproducing.md).
 
 ## Documentation
-
-The `docs/` folder is a wiki-style set of pages (it works as plain Markdown, and as a GitHub wiki with
-`_Sidebar.md`). Start at [`docs/Home.md`](docs/Home.md).
-
-1. [Project Overview](docs/01-Project-Overview.md)
-2. [Methodology](docs/02-Methodology.md)
-3. [App Structure](docs/03-App-Structure.md)
-4. [`regulation.cfg`](docs/04-regulation-cfg.md)
-5. [`regulation.bin`](docs/05-regulation-bin.md)
-6. [`rule.prd` Format](docs/06-rule-prd-format.md)
-7. [Rebuilding `rule.prd`](docs/07-Rebuilding-rule-prd.md)
-8. [Error Codes](docs/08-Error-Codes.md)
-9. [Test Cases](docs/09-Test-Cases.md)
-10. [Tools and Reproducing](docs/10-Tools-and-Reproducing.md)
-11. [Corrections and Lessons](docs/11-Corrections-and-Lessons.md)
-12. [Open Questions](docs/12-Open-Questions.md)
-13. [Log Files and Viewer](docs/13-Log-Files-and-Viewer.md)
+Read the [wiki](https://github.com/SleepyLark/pwc2010-file-reconstruction/wiki).
+A copy can also be found in the `docs/` folder.
 
 ## Repository layout
 
@@ -101,8 +86,8 @@ testcases/hardware_logs/       sanitized logT/logB from a real DSi run
 
 ## Legal and licensing notes
 
-* **No copyrighted or propriety software are included in this repo**.
-* The scripts, `.pk5` test files and documentation are original work generated using Claude Sonnet 5.5. **Free and open for all**.
+* **No copyrighted or proprietary software is included in this repo**.
+* The scripts, `.pk5` test files, and documentation are original work generated using Claude Sonnet 5.5. **Free and open for all**.
 * Pokémon and related names are trademarks of Nintendo / Creatures Inc. / GAME FREAK inc. This project is not
   affiliated with or endorsed by them.
 * PokeAPI data is used under PokeAPI's own terms. Only cached files are used and no requests are ever sent to the official API; see <https://github.com/PokeAPI/pokeapi>.
